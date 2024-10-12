@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    height: 80px;
+}
+
+.hero {
+    background-image: url('hero-background.jpg'); /* Ganti dengan gambar yang sesuai */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    color: #003366; /* Warna font biru */
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #66CCFF;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: #005f8f;
+}
+
+.footer {
+    background-color: #003366;
+    color: white;
+    padding: 15px 0;
+    margin-top: 20px;
+}
